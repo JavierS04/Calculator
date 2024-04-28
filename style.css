@@ -1,0 +1,35 @@
+.cal{
+    display: flex;
+    border: 3px solid black;
+    height: 400px;
+    width: 250px;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.numbers{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+}
+
+.buttons-holder{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 2px;
+    cursor: default;
+}
